@@ -10,8 +10,7 @@
     <p>Welcome <%=@user.username%></p>
     <p>Your balance is: <%= @user.balance %></p>
     <% else %>
-    <p>You are not logged in.</p>
-    <a href="/">Please click here to log in.</a>
+    <p>You must <a href='/login'>log in</a></p>
     <%end%>
     
     <a href="/logout">Log Out</a>
