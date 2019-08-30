@@ -11,9 +11,8 @@
     <p>Your Balance: <%= Helpers.current_user(session).balance %></p>
     <% else %>
     <p>You Must <a href='/'>Log In</a>to View Your Balance.</p>
-    <%end%>
     
     <a href="/logout">Log Out</a>
-
+    <%end%>
   </body>
 </html>
